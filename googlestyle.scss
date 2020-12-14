@@ -1,0 +1,21 @@
+form{
+    input[type=text]{
+        border-radius: 100px;
+
+    }
+
+    input[type=submit]{
+            border: none;
+            border-radius: 5px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 16px;
+            padding-right: 16px;
+            transition-duration: 0.4;
+    }
+
+    input[type=submit]:hover{
+            border: 1px solid gray;
+    }
+
+} 
