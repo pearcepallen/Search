@@ -2,11 +2,8 @@ form{
     input[type=text]{
         border-radius: 100px;
         width: 100%;
-        min-width: 400px;
+        max-width: 400px;
         height: 46px;
-        //position: relative;
-        margin: 0 auto;
-        flex-shrink: 1;
     }
 
     input[type=submit], input[type=button]{
@@ -22,15 +19,20 @@ form{
     }
 
 } 
-
-#container {
+#form{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
 }
 
-#form{
+#container {
     display: flex;
-    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+#searchbar{
+    max-width: 400px;
+    width: 100%;
+    height: 46px;
 }
 
