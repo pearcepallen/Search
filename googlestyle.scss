@@ -2,7 +2,7 @@ form{
     input[type=text]{
         border-radius: 100px;
         width: 100%;
-        max-width: 400px;
+        min-width: 400px;
         height: 46px;
     }
 
@@ -23,6 +23,8 @@ form{
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+    position: absolute;
+    top: 311px;
 }
 
 #container {
@@ -31,8 +33,6 @@ form{
 }
 
 #searchbar{
-    max-width: 400px;
     width: 100%;
-    height: 46px;
 }
 
