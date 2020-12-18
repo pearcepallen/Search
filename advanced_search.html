@@ -2,30 +2,43 @@
 <html lang="en">
     <head>
         <title>Advanced Search</title>
+        <link rel="stylesheet" href="advancedstyle.css">
     </head>
     <body>
+        <div id="navbar">
+            <a href="index.html">
+                <img src ="google.png" alt="Google">
+            </a>
+            <span id="return"><a href="index.html" >Google Search</a></span>
+        </div>
+        <div id="pagename">
+            <h1>Advanced Search</h1>
+        </div>
+
         <form action="https://google.com/search">
-            <div id="pagename">Advanced Search</div>
-            
-            <div>
-                <label for="all"> all these words: </label>
-                <input type="text" name="q">
-            </div>
-            <div>
-                <label for="exact"> this exact word or phrase: </label>
-                <input type="text" name='q'>
-            </div>
-            <div>
-                <label for="any">any of these words: </label> 
-                <input type="text" name='q'>
-            </div>
-            <div>
-                <label for="none">none of these words:</label>
-                <input type="text" name="q">            
-            </div>    
-            <div>
-                <input type="button" value="Advanced Search">
-            </div>    
+            <div id="form">
+                <div><span>Find pages with...</span></div>
+                <div>
+                    <label for="all"> all these words: </label>
+                    <input type="text" name="q">
+                </div>
+                <div>
+                    <label for="exact"> this exact word or phrase: </label>
+                    <input type="text" name='q'>
+                </div>
+                <div>
+                    <label for="any">any of these words: </label> 
+                    <input type="text" name='q'>
+                </div>
+                <div>
+                    <label for="none">none of these words:</label>
+                    <input type="text" name="q">            
+                </div>    
+                <div id="button">
+                    <input type="button" value="Advanced Search">
+                </div> 
+            </div>   
         </form>
+
     </body>
 </html>
