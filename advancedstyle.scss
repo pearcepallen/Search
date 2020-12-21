@@ -47,7 +47,7 @@ input[type=text]:focus{
     outline: none;
 }
 
-input[type=button]{
+input[type=submit]{
     font-family: $primary_font;
     font-weight: bold;
     background-color: rgb(75,142,250);
@@ -59,12 +59,12 @@ input[type=button]{
 
 }
 
-input[type=button]:hover{
+input[type=submit]:hover{
     border: 1px solid rgb(47, 91, 183);
     box-shadow: inset 0.25px 0.25px 2px 0.1px rgb(47, 109, 209);
 }
 
-input[type=button]:focus{
+input[type=submit]:focus{
     box-shadow: inset 0 0 0 1px white;
     outline: none;
 }
@@ -83,7 +83,7 @@ input[type=button]:focus{
     @include reset-list;
 }
 
-#button{
+#submit{
     text-align: right;
     width: 52.6%;
 }
