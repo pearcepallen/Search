@@ -1,0 +1,105 @@
+img {
+  width: 272px;
+  height: 92px;
+  padding-bottom: 20px;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+#form {
+  width: auto;
+  margin: auto;
+  text-align: center;
+}
+
+#form input[type=text] {
+  border: 1px solid #e2e4e7;
+  border-radius: 100px;
+  width: 35%;
+  min-width: 400px;
+  height: 46px;
+  margin: 0 auto;
+  padding: 0 30px 0 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+#form input[type=text]:focus, #form input[type=text]:hover {
+  outline: none;
+  -webkit-box-shadow: -1px 1px 5px 3px #ebebec;
+          box-shadow: -1px 1px 5px 3px #ebebec;
+}
+
+#form input[type=submit], #form input[type=button] {
+  border: 1px solid #f8f9fa;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  padding: 10px 16px 10px 16px;
+  margin: 20px 5px 0px 5px;
+  -webkit-transition-duration: 0.4;
+          transition-duration: 0.4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+#form input[type=submit]:hover, #form input[type=button]:hover {
+  border: 1px solid #e2e4e7;
+  -webkit-box-shadow: 0 4px 3px -3px #ebebec;
+          box-shadow: 0 4px 3px -3px #ebebec;
+}
+
+#form input[type=submit]:focus, #form input[type=button]:focus {
+  outline: none;
+  border: 1px solid #6aa2fd;
+}
+
+#navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+#navbar div {
+  padding: 10px 20px 10px 0;
+}
+
+#search {
+  text-align: center;
+  padding-top: 125px;
+}
+
+#buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#subtext {
+  position: relative;
+  bottom: 40px;
+  left: 105px;
+  background-color: transparent;
+  color: #4285f4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*# sourceMappingURL=googlestyle.css.map */
