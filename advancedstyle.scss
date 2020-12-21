@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-$primary_font: arial, sans-serif;
+$primary_font: arial, Helvetica, sans-serif;
 
 body{
     @include reset-list;
@@ -94,12 +94,20 @@ input[type=button]:focus{
 }
 
 #return{
-    font-family: $primary_font;
     padding: 20px 20px 0 15px;
     float: right;
+
+    a{
+        font-family: $primary_font;
+        font-size: 13px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    a:hover{
+        color: gray;
+        text-decoration: underline;
+    }
 }
 
-#return:hover{
-    font-weight: bold;
-}
 
